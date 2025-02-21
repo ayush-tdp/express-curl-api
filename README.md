@@ -1,5 +1,3 @@
-Here's a well-structured and interactive **README.md** file with emojis and proper formatting:  
-
 ---
 
 ### **📌 Express Curl API - Universal API Proxy**  
@@ -189,5 +187,3 @@ Made with ❤️ by **[Your Name](https://github.com/your-username)**
 ⭐ **If you like this project, give it a star!** 🌟🚀  
 
 ---
-
-This README is **fully structured, interactive, and informative** with real-world examples. Let me know if you need any modifications! 🚀🔥
