@@ -20,7 +20,7 @@
 
 ### **1️⃣ Clone the Repository**
 ```bash
-git clone https://github.com/your-username/express-curl-api.git
+git clone https://github.com/ayush-tdp/express-curl-api.git
 cd express-curl-api
 ```
 
@@ -31,7 +31,7 @@ npm install
 
 ### **3️⃣ Run the Server Locally**
 ```bash
-node server.js
+node ./api/all-in-one.js
 ```
 
 💡 The API will be available at:  
@@ -43,7 +43,7 @@ node server.js
 
 ### **1️⃣ Simple JSON API Request**
 ```bash
-curl -X POST "https://your-vercel-app.vercel.app/api/all-in-one" \
+curl -X POST "https://express-curl-api.vercel.app/api/all-in-one" \
     -H "Content-Type: application/json" \
     -d '{
         "method": "GET",
@@ -126,7 +126,7 @@ fetch("https://express-curl-api.vercel.app/api/all-in-one", {
 To make a request, send a `POST` request to:  
 📌 **Endpoint:**  
 ```
-https://your-vercel-app.vercel.app/api/all-in-one
+https://express-curl-api.vercel.app/api/all-in-one
 ```
 
 📌 **Request Body:**
@@ -165,7 +165,7 @@ vercel
 
 3️⃣ **Get Your Live URL**  
 Once deployed, your API will be available at:  
-`https://your-vercel-app.vercel.app/api/all-in-one`
+`https://express-curl-api.vercel.app/api/all-in-one`
 
 ---
 
@@ -179,9 +179,9 @@ Once deployed, your API will be available at:
 ---
 
 ## **👨‍💻 Author**
-Made with ❤️ by **[Your Name](https://github.com/your-username)**  
+Made with ❤️ by **[Ayush Varma](https://github.com/ayush-tdp)**  
 
-📌 **GitHub:** [https://github.com/your-username](https://github.com/your-username)  
+📌 **GitHub:** [https://github.com/ayush-tdp](https://github.com/ayush-tdp)  
 📌 **Website:** [https://yourwebsite.com](https://yourwebsite.com)  
 
 ⭐ **If you like this project, give it a star!** 🌟🚀  
