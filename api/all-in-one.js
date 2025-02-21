@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
-app.post("/api/data", (req, res) => {
+app.post("/api/all-in-one", (req, res) => {
     try {
         const { method, url, headers, body } = req.body;
 
