@@ -1,15 +1,8 @@
 {
-    "version": 2,
-    "builds": [
-      {
-        "src": "api/all-in-one.js",
-        "use": "@vercel/node"
-      }
-    ],
     "routes": [
       {
-        "src": "/api/all-in-one",
-        "dest": "/api/all-in-one.js"
+        "src": "/api/(.*)",
+        "dest": "/api/$1.js"
       }
     ]
   }
